@@ -6,10 +6,9 @@ public class TestModel {
 
 		Model model = new Model();
 		
-		/*
-		 * 	Write here your test model
-		 */
-
+	System.out.println("Corsi: "+model.getTuttiICorsi());
+		System.out.println("Studente: "+model.getStudenteMatricola(169195));
+		System.out.println("StudentiCorso: "+model.studentiPerCorso(new Corso("09AQGNG",8,"Economia aziendale",1)));
 	}
 
 }
